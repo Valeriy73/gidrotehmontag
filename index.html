@@ -8,12 +8,12 @@
 </head>
 <body>
 	<header class="page-header">
-		<div class="container">
 			<div class="row header-top">
+				<div class="container">
 				<div class="header-top__logo col-md-3">ГидроТехМонтаж</div>
 				<div class="header-top__nav col-md-7"> 
 					<ul class="header-top__list">
-						<li class="header-top__item header-top__item--home header-top__item--active"></li>
+						<li class="header-top__item header-top__item--home header-top__item--active"><a href="index.html"><img src="images/home.png"></a></li>
 						<li class="header-top__item"><a href="#">О КОМПАНИИ</a></li>
 						<li class="header-top__item"><a href="#">НАШИ РАБОТЫ</a></li>
 						<li class="header-top__item"><a href="#">ОТЗЫВЫ</a></li>
@@ -22,14 +22,16 @@
 					</ul>
 				</div>
 				<div class="callback col-md-2">
-					<div class="callback__img"><img src="images/phone.png"></div>
+					<div class="callback__img"></div>
 					<div class="callback__data">
 						<p class="callback__phone">8 (987) 007 56 23</p>
 						<a href="" class="callback__link">ЗАКАЗАТЬ ЗВОНОК</a>
 					</div>
 				</div>
+				</div>
 			</div>
 			<div class="row header-bottom">
+				<div class="container">
 				<ul class="header-bottom__list">
 					<li class="header-bottom__item">
 						<a href="#">
@@ -81,7 +83,6 @@
 					</li>
 				</ul>
 			</div>
-		</div>
 	</header>
 	<section class="banner">
 		<img class="banner_img" src="images/baner_bg.jpg">
@@ -211,10 +212,57 @@
 		</div>
 		<div class="write"> 
 			<h2 class="write__title">Напишите нам</h2>
-			<form class=""write-form" action=""> 
-			<input type="text" placeholder="Ваше Имя">
+			<form class="write-form" action="" method="POST"> 
+			<input class="write-input write-input--active" type="text" name="name" placeholder="Ваше Имя">
+			<input class="write-input" type="tel" name="phone" placeholder="Ваш Телефон">
+			<input class="write-input" type="email" name="email" placeholder="Ваш E-mail">
+			<textarea class="write-textarea" name="message" placeholder="Введите сообщение"></textarea>
+			<input class="write-submit" type="submit" name="submit" value="Отправить">
 			</form>
 		</div>
 	</section>
+	<footer class="footer-page"> 
+		<div class="container"> 
+			<div class="info col-md-2">
+				<h3>Информация</h3>
+				<ul class="info__list">
+					<li class="info__item"><a href="#">О КОМПАНИИ</a></li>
+					<li class="info__item"><a href="#">НАШИ РАБОТЫ</a></li>
+					<li class="info__item"><a href="#">ОТЗЫВЫ</a></li>
+					<li class="info__item"><a href="#">FAQ</a></li>
+					<li class="info__item"><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+			</div>
+			<div class="service col-md-4">
+				<h3>услугИ</h3>
+				<ul class="service__list">
+					<li class="service__item"><a href="#">Отопление</a></li>
+					<li class="service__item"><a href="#">Водоснабжение</a></li>
+					<li class="service__item"><a href="#">Бассейны и искуссвтенные пруды</a></li>
+					<li class="service__item"><a href="#">Канализация</a></li>
+					<li class="service__item"><a href="#">Анализ воды и рекомендации специалиста</a></li>
+					<li class="service__item"><a href="#">Водоочистка</a></li>
+					<li class="service__item"><a href="#">Собственное производство</a></li>
+				</ul>
+			</div>
+			<div class="contacts col-md-3">
+				<h3>контакты</h3>
+				<p class="contacts__street">ул. Дачная, 35 а / 52<br>г. Нижний Новгород, 603041</p>
+				<p class="contacts__phone">8 (987) 007 56 23</p>
+				<p class="contacts__email">neo.nature@mail.ru</p>
+				<div class="contacts__social"> 
+					<a href="#" class="contacts__link contacts__link--vk"></a>
+					<a href="#" class="contacts__link contacts__link--fasebook"></a> 
+				</div>
+			</div>
+			<div class="search col-md-3">
+				<h3>пОИСК</h3>
+				<form class="search__form"> 
+					<input class="search__input" type="text" name="search"><span class="seach_icon"></span>
+				</form>
+				<p class="search__copyright">© Все права защищены. 2015</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
