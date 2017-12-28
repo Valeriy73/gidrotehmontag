@@ -96,10 +96,11 @@ ul {
 .header-bottom__list {
 	padding-left: 0;
 	padding-right: 0;
+	text-align: center;
 }
 .header-bottom__item {
 	display: inline-block;
-	max-width: 204px;
+	max-width: 220px;
 	text-align: center;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -172,7 +173,19 @@ ul {
 	position: absolute;
 	display: none;
 	z-index: 99;
+	padding: 0;
+	background-color: #fff;
+    border-top: #96d794 solid 2px;
+    width: 350px;
 }
+.submenu__link {
+	text-align: left;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	word-wrap: normal;
+}
+
 .header-bottom__name {
 	font-size: 16px;
  	font-family: 'ProximaNova-Light';
