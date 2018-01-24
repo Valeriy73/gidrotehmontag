@@ -106,9 +106,11 @@ ul {
 	padding-left: 15px;
 	vertical-align: top;
 	position: relative;
+
 }
-.header-bottom__item a {
+.header-bottom__link {
 	display: block;
+	height: 92px;
 }
 
 .header-bottom__item a:hover {
@@ -191,6 +193,7 @@ ul {
  	font-family: 'ProximaNova-Light';
  	color: #777;
  	margin-top: 10px;
+ 	margin-bottom: 0;
 }
 .submenu__link--active {
 	color: #96d794;
@@ -199,3 +202,26 @@ ul {
 	display: block;
 }
 
+.title-section {
+	font-size: 33px;
+	color: #464646;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.title-section--center {
+	text-align: center;
+}
+
+.title-section--left {
+	text-align: left;
+}
+
+.about {
+	padding: 40px 0 35px;	
+}
+
+.about p {
+	font-size: 18px;
+	color: #777;
+}
