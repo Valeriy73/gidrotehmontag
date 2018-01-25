@@ -221,7 +221,18 @@ ul {
 	padding: 40px 0 35px;	
 }
 
-.about p {
+.about__resume {
 	font-size: 18px;
-	color: #777;
+}
+
+.about__list {
+	padding-left: 0;
+}
+
+.about__item {
+	background-image: url(../images/marker.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 40px;
+	line-height: 2;
 }
