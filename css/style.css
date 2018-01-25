@@ -218,7 +218,7 @@ ul {
 }
 
 .about {
-	padding: 40px 0 35px;	
+	padding: 40px 0;	
 }
 
 .about__resume {
@@ -227,6 +227,7 @@ ul {
 
 .about__list {
 	padding-left: 0;
+	margin-bottom: 35px;
 }
 
 .about__item {
@@ -235,4 +236,69 @@ ul {
 	background-position: left center;
 	padding-left: 40px;
 	line-height: 2;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 35px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #fff;
+	background-color: #96d794;
+	border-radius: 3px;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #49AF46;
+}
+
+.advantages {
+	background-image: url(../images/futers_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0 0;
+}
+
+.advantage__item {
+	padding: 110px 20px 26px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.advantage__title {
+	font-size: 18px;
+	color: #666767;
+
+}
+
+.advantage_text {
+	line-height: 1.5;
+}
+
+.advantage__item--professional {
+	background-image: url(../images/head.png);
+}
+
+.advantage__item--certificate {
+	background-image: url(../images/charter.png);
+}
+
+.advantage__item--registration {
+	background-image: url(../images/hands.png);
+}
+
+.advantage__item--garanty {
+	background-image: url(../images/guaranty.png);
+}
+
+.advantage__item--service {
+	background-image: url(../images/servise.png);
+}
+
+.advantage__item--price {
+	background-image: url(../images/price.png);
 }
