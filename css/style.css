@@ -1,14 +1,14 @@
 @font-face {
 	font-family: 'Univers-Light';
-	src: url('fonts/Univers-Light.eot');
-	src: local('☺'), url('fonts/Univers-Light.woff') format('woff'), url('fonts/Univers-Light.ttf') format('truetype'), url('fonts/Univers-Light.svg') format('svg');
+	src: url('../fonts/Univers-Light.eot');
+	src: local('☺'), url('../fonts/Univers-Light.woff') format('woff'), url('../fonts/Univers-Light.ttf') format('truetype'), url('../fonts/Univers-Light.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'ProximaNova-Light';
-	src: url('fonts/ProximaNova-Light.eot');
-	src: local('☺'), url('fonts/ProximaNova-Light.woff') format('woff'), url('fonts/ProximaNova-Light.ttf') format('truetype'), url('fonts/ProximaNova-Light.svg') format('svg');
+	src: url('../fonts/ProximaNova-Light.eot');
+	src: local('☺'), url('../fonts/ProximaNova-Light.woff') format('woff'), url('../fonts/ProximaNova-Light.ttf') format('truetype'), url('../fonts/ProximaNova-Light.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -100,7 +100,7 @@ ul {
 }
 .header-bottom__item {
 	display: inline-block;
-	max-width: 220px;
+	max-width: 235px;
 	text-align: center;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -200,6 +200,10 @@ ul {
 }
 .header-bottom__item:hover .submenu {
 	display: block;
+}
+
+.banner_img {
+	width: 100%;
 }
 
 .title-section {
@@ -323,11 +327,15 @@ ul {
 }
 
 .offers {
-	position: absolute;
-	padding: 50px 50px 50px 30px;
+	padding: 45px 50px 45px 30px;
 	background-color: #393939;
+	text-align: left;
+}
+
+.offers-wrap {
+	position: absolute;
 	top: 0;
-	bottom: 0;
+	bottom: 30px;
 	right: 0;
 }
 
@@ -335,11 +343,104 @@ ul {
 	font-size: 23px;
 	color: #fff;
 	line-height: 1.2;
-	margin-bottom: 40px;
+	margin-bottom: 35px;
+	font-weight: 700;
 }
 
 .offers__text {
 	line-height: 1.5;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+
+.offers__link {
+	color: #96d794;
+	line-height: 1.5;
+}
+
+.offers__link::after {
+	content: "";
+	display: inline-block;
+	background-image: url(../images/arrow.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 12px;
+	margin-left: 20px;
+}
+
+.offers__link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.offers__link:hover::after {
+	background-image: url(../images/arrow_white.png);
+}
+
+.reviews {
+	background-image: url(../images/review_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 0 15px;
+}
+
+.review {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.review__text {
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: 25px;
+}
+
+.review__author {
+	line-height: 28px;
+	color: #fff;
+	font-weight: 700;
 	margin-bottom: 45px;
+}
+
+.review__link {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #96d794;
+	border: 1px solid #96d794;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: transparent;
+	margin-bottom: 50px;
+}
+
+.review__link:hover {
+	color: #fff;
+	background-color: #96d794;
+	text-decoration: none;
+}
+
+.slick-dots {
+	
+}
+
+.slick-dots li button:before {
+	color: #8e8e8e;
+	font-size: 14px;
+	opacity: 1;
+}
+
+.slick-dots li button:hover:before {
+	color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #fff;
+	opacity: 1;
 }
 
