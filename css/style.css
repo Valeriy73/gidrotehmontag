@@ -388,18 +388,18 @@ ul {
 }
 
 .review {
-	width: 80%;
 	text-align: center;
 	margin: 0 auto;
 }
 
 .review__text {
+	width: 80%;
 	font-size: 20px;
 	color: #fff;
 	line-height: 28px;
 	font-weight: 700;
 	font-style: italic;
-	margin-bottom: 25px;
+	margin: 0 auto 25px;
 }
 
 .review__author {
@@ -418,7 +418,7 @@ ul {
 	border-radius: 3px;
 	padding: 10px;
 	background-color: transparent;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 }
 
 .review__link:hover {
@@ -427,9 +427,10 @@ ul {
 	text-decoration: none;
 }
 
-.slick:focus {
+.review.slick-slide:focus {
 	outline: none;
 }
+
 .slick-dots {
 	
 }
@@ -449,3 +450,21 @@ ul {
 	opacity: 1;
 }
 
+.map {
+	width: 50%;
+	background-image: url(../images/map.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.position {
+	width: 255px;
+	height: 190px;
+	background-color: #fff;
+	margin: 150px 0 190px;
+}
+
+.write {
+	width: 50%;
+	float: right;
+}
