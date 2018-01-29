@@ -327,9 +327,10 @@ ul {
 }
 
 .offers {
-	padding: 45px 50px 45px 30px;
+	padding: 50px 55px 50px 30px;
 	background-color: #393939;
 	text-align: left;
+	height: 100%;
 }
 
 .offers-wrap {
@@ -345,6 +346,7 @@ ul {
 	line-height: 1.2;
 	margin-bottom: 35px;
 	font-weight: 700;
+	padding-right: 40px;
 }
 
 .offers__text {
@@ -425,6 +427,9 @@ ul {
 	text-decoration: none;
 }
 
+.slick:focus {
+	outline: none;
+}
 .slick-dots {
 	
 }
