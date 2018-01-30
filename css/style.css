@@ -546,5 +546,24 @@ ul {
 	padding-bottom: 10px;
 }
 
+.footer-page {
+	background-color: #393939;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
 
+.footer-page h3 {
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
 
+.footer__list {
+	padding-left: 0;
+}
+
+.footer__item a {
+	line-height: 1.5;
+	color: #777;
+}
