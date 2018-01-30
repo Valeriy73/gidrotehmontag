@@ -567,3 +567,29 @@ ul {
 	line-height: 1.5;
 	color: #777;
 }
+
+.footer__item a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.contacts__phone {
+	font-size: 15px;
+	color: #fff;
+}
+
+.contacts__link {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+
+.contacts__link--vk {
+	background-image: url(../images/vk.png);
+}
+
+.contacts__link--fasebook {
+	background-image: url(../images/facebook.png);
+}
+
