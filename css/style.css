@@ -26,7 +26,7 @@ ul {
 }
 .header-top {
 	border-top: #96d794 solid 5px;
-	height: 70px;
+	min-height: 70px;
 }
 .header-top__logo {
 	color: #737373;
@@ -90,7 +90,7 @@ ul {
 
 .header-bottom {
 	border-top: #e5e5e5 solid 1px;
-	height: 107px;
+	min-height: 107px;
 	
 }
 .header-bottom__list {
@@ -451,21 +451,25 @@ ul {
 }
 
 .communication {
-	background-image: url(../images/map.jpg);
+	background-image: url(../images/map1.jpg);
 	background-repeat: no-repeat;
-	background-position: left top;
-	-webkit-background-size: 50% auto;
-	background-size: 50% auto;
+	background-position: center center;
+	
+	background-size: cover;
 
+}
+
+.map {
+	padding: 150px 0 181px;
 }
 
 .position {
 	width: 255px;
 	height: 190px;
 	background-color: #fff;
-	margin: 150px 0 190px;
 	border-left: 3px solid #96d794;
 	padding: 20px 35px 20px 20px;
+	position: relative;
 }
 
 .position__logo {
@@ -504,6 +508,16 @@ ul {
 .position__email:hover {
 	background-image: url(../images/email-green.png);
 	color:  #96d794;
+}
+
+.position__triangle {
+	position: absolute;
+	left: 15px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 10px solid #fff;
 }
 
 .write {
