@@ -573,9 +573,22 @@ ul {
 	color: #fff;
 }
 
+.contacts__street {
+	margin: 0;
+	line-height: 1.5;
+}
+
 .contacts__phone {
 	font-size: 15px;
 	color: #fff;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.contacts__email {
+	margin: 0;
+	line-height: 1.5;
+	margin-bottom: 10px;
 }
 
 .contacts__link {
@@ -592,4 +605,27 @@ ul {
 .contacts__link--fasebook {
 	background-image: url(../images/facebook.png);
 }
+
+.search {
+	
+}
+.search__input {
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #777;
+	outline: none;
+	height: 36px;
+	background-image: url(../images/icon_search.png);
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	padding-right: 25px;
+	padding-left: 10px;
+	margin-bottom: 60px;
+}
+
+.search__copyright {
+	font-size: 15px;
+	line-height: 25px;
+}
+
 
